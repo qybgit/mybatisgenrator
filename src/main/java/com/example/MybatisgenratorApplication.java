@@ -7,9 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.example.bean.mapper")
 public class MybatisgenratorApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(MybatisgenratorApplication.class, args);
+
+        System.out.println("启动");
     }
 
 }
