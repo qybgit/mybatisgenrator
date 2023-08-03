@@ -12,6 +12,7 @@ public class MybatisgenratorApplication {
 
         System.out.println("启动");
         System.out.println("启");
+        System.out.println("启");
     }
 
 }
