@@ -11,7 +11,7 @@ public class MybatisgenratorApplication {
         SpringApplication.run(MybatisgenratorApplication.class, args);
 
         System.out.println("启动");
-        System.out.println("启");
+        System.out.println("东");
         System.out.println("启");
     }
 
