@@ -32,6 +32,7 @@ public class TestController {
 //          serviceimpl.test();
         System.out.println("scfbdff");
         System.out.println(ApiResult.TEST);
+        System.out.println(12345);
         return Result.success("sd");
     }
     @RequestMapping("/test2")
