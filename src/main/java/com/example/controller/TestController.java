@@ -29,7 +29,7 @@ public class TestController {
         StudentExample.Criteria r1=example.or().andNameEqualTo("小卡");
         StudentExample.Criteria r2=example.or().andNameEqualTo("小明");
         System.out.println(mapper.selectByExample(example));
-//        serviceimpl.test();
+//          serviceimpl.test();
         System.out.println(ApiResult.TEST);
         return Result.success("sd");
     }
@@ -45,6 +45,10 @@ public class TestController {
     @PostMapping("/file")
     public Result addFile(@PathVariable("file") MultipartFile file) throws IOException {
         return serviceimpl.addExcel(file);
+    }
+    @RequestMapping("/test01")
+    public String test01(){
+         return "";
     }
 
 
