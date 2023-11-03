@@ -30,6 +30,7 @@ public class TestController {
         StudentExample.Criteria r2=example.or().andNameEqualTo("小明");
         System.out.println(mapper.selectByExample(example));
 //          serviceimpl.test();
+        System.out.println("sdf");
         System.out.println(ApiResult.TEST);
         return Result.success("sd");
     }
