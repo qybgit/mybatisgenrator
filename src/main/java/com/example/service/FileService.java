@@ -8,8 +8,6 @@ import java.io.IOException;
 public interface FileService {
     String test="asd";
 
-
-
     default void test() {
         System.out.println("asdf");
     }
